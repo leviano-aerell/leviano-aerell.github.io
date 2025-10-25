@@ -6,10 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nachann - Defaul Overlay</title>
     <style>
+        html,
         body {
             background-color: rgba(0, 0, 0, 0);
-            margin: 0px auto;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
             overflow: hidden;
+        }
+
+        .viewport {
+            position: relative;
+            width: 1080px;
+            height: 1920px;
+            margin: 0 auto;
+            transform-origin: top left;
+            position: relative;
         }
 
         .sociabuzz-alert {
@@ -74,20 +87,22 @@
 </head>
 
 <body>
-    <iframe class="sociabuzz-alert"
-        src="https://sociabuzz.com/pro/tribe/alert1/v3/4966609141?colorName=%2300ff00+&alphaName=1&colorNote=%23ffff00&alphaNote=1&colorFrom=%23eeeeee&alphaFrom=1&gifActive=1&maxDuration=12&font=Open%2BSans%3A800"
-        frameborder="0"></iframe>
-    <iframe class="trakteer-alert"
-        src="https://stream.trakteer.id/notification/index.html?key=trstream-d5XaboTr5175ZT84xhlZ&unit=Permen Karet&mod=3&hash=l0wd39bvvnb5pkzn"
-        frameborder="0"></iframe>
-    <iframe class="tako-soundboard-alert" src="https://tako.id/overlay/soundboard?overlay_key=v94kgsm6l8ps6rwq3fkqosyi"
-        frameborder="0"></iframe>
-    <iframe class="tako-alert" src="https://tako.id/overlay/alert?overlay_key=v94kgsm6l8ps6rwq3fkqosyi"
-        frameborder="0"></iframe>
-    <iframe class="tako-mediashare-alert" src="https://tako.id/overlay/mediashare?overlay_key=v94kgsm6l8ps6rwq3fkqosyi"
-        frameborder="0"></iframe>
-    <iframe class="tako-milestone" src="https://tako.id/overlay/milestone?overlay_key=y0nb6x1x0viemcf5hyexd8ah"
-        frameborder="0"></iframe>
+    <div class="viewport">
+        <iframe class="sociabuzz-alert"
+            src="https://sociabuzz.com/pro/tribe/alert1/v3/4966609141?colorName=%2300ff00+&alphaName=1&colorNote=%23ffff00&alphaNote=1&colorFrom=%23eeeeee&alphaFrom=1&gifActive=1&maxDuration=12&font=Open%2BSans%3A800"
+            frameborder="0"></iframe>
+        <iframe class="trakteer-alert"
+            src="https://stream.trakteer.id/notification/index.html?key=trstream-d5XaboTr5175ZT84xhlZ&unit=Permen Karet&mod=3&hash=l0wd39bvvnb5pkzn"
+            frameborder="0"></iframe>
+        <iframe class="tako-soundboard-alert" src="https://tako.id/overlay/soundboard?overlay_key=v94kgsm6l8ps6rwq3fkqosyi"
+            frameborder="0"></iframe>
+        <iframe class="tako-alert" src="https://tako.id/overlay/alert?overlay_key=v94kgsm6l8ps6rwq3fkqosyi"
+            frameborder="0"></iframe>
+        <iframe class="tako-mediashare-alert" src="https://tako.id/overlay/mediashare?overlay_key=v94kgsm6l8ps6rwq3fkqosyi"
+            frameborder="0"></iframe>
+        <iframe class="tako-milestone" src="https://tako.id/overlay/milestone?overlay_key=y0nb6x1x0viemcf5hyexd8ah"
+            frameborder="0"></iframe>
+    </div>
 </body>
 
 </html>

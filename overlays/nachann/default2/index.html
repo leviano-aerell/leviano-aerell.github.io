@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nachann - Default Overlay</title>
+    <title>Nachann - Default 2 Overlay</title>
     <style>
         html,
         body {
@@ -18,8 +18,8 @@
 
         .viewport {
             position: relative;
-            width: 1080px;
-            height: 1920px;
+            width: 1920px;
+            height: 1080px;
             margin: 0 auto;
             transform-origin: top left;
             position: relative;
@@ -29,38 +29,39 @@
             width: 400px;
             height: 400px;
             position: absolute;
-            top: 924px;
-            right: 629px;
-            transform: scale(1.15);
-            transform-origin: top right;
+            bottom: 663px;
+            left: 702px;
+            transform: scale(1.25);
+            transform-origin: bottom left;
         }
 
         .trakteer-alert {
             width: 800px;
             height: 600px;
             position: absolute;
-            top: 805px;
-            left: -45px;
-            transform: scale(1.54);
+            top: 33px;
+            left: 10px;
+            transform: scale(1.3);
             transform-origin: top left;
         }
 
         .tako-soundboard-alert {
-            width: 400px;
+            width: 600px;
             height: 400px;
             position: absolute;
-            top: 1100px;
-            left: 10px;
-            transform: scale(1.07);
+            top: 50px;
+            left: 29px;
+            transform: scale(0.97);
             transform-origin: top left;
         }
 
         .tako-alert {
-            width: 400px;
+            width: 600px;
             height: 400px;
             position: absolute;
-            top: 1088px;
-            transform: scale(1.13);
+            top: 52px;
+            left: 28px;
+            transform: scale(0.98);
             transform-origin: top left;
         }
 
@@ -68,19 +69,29 @@
             width: 800px;
             height: 700px;
             position: absolute;
-            top: 871px;
-            left: 3px;
-            transform: scale(0.8);
+            top: 58px;
+            left: 35px;
+            transform: scale(0.7);
             transform-origin: top left;
         }
 
         .tako-milestone {
-            width: 400px;
+            width: 600px;
             height: 400px;
             position: absolute;
-            top: 34px;
-            left: 6px;
-            transform: scale(1.13);
+            top: 867px;
+            left: 23px;
+            transform: scale(1.30);
+            transform-origin: top left;
+        }
+
+        .tako-leaderboard {
+            width: 600px;
+            height: 600px;
+            position: absolute;
+            top: 876px;
+            left: 803px;
+            transform: scale(0.55);
             transform-origin: top left;
         }
     </style>
@@ -94,13 +105,15 @@
         <iframe class="trakteer-alert"
             src="https://stream.trakteer.id/notification/index.html?key=trstream-yjqBFDemV4dEqCkrFfI3&unit=Paket&mod=3&hash=v7dk486vewb5b690"
             frameborder="0"></iframe>
-        <iframe class="tako-soundboard-alert" src="https://tako.id/overlay/soundboard?overlay_key=y0nb6x1x0viemcf5hyexd8ah"
-            frameborder="0"></iframe>
+        <iframe class="tako-soundboard-alert"
+            src="https://tako.id/overlay/soundboard?overlay_key=y0nb6x1x0viemcf5hyexd8ah" frameborder="0"></iframe>
         <iframe class="tako-alert" src="https://tako.id/overlay/alert?overlay_key=y0nb6x1x0viemcf5hyexd8ah"
             frameborder="0"></iframe>
-        <iframe class="tako-mediashare-alert" src="https://tako.id/overlay/mediashare?overlay_key=y0nb6x1x0viemcf5hyexd8ah"
-            frameborder="0"></iframe>
+        <iframe class="tako-mediashare-alert"
+            src="https://tako.id/overlay/mediashare?overlay_key=y0nb6x1x0viemcf5hyexd8ah" frameborder="0"></iframe>
         <iframe class="tako-milestone" src="https://tako.id/overlay/milestone?overlay_key=y0nb6x1x0viemcf5hyexd8ah"
+            frameborder="0"></iframe>
+        <iframe class="tako-leaderboard" src="https://tako.id/overlay/leaderboard?overlay_key=y0nb6x1x0viemcf5hyexd8ah"
             frameborder="0"></iframe>
     </div>
 </body>

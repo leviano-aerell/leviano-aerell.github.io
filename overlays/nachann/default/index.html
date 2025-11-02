@@ -16,30 +16,21 @@
             overflow: hidden;
         }
 
-        .viewport {
-            position: relative;
-            width: 1080px;
-            height: 1920px;
-            margin: 0 auto;
-            transform-origin: top left;
-            position: relative;
-        }
-
         .sociabuzz-alert {
             width: 400px;
             height: 400px;
             position: absolute;
-            top: 924px;
-            right: 629px;
+            top: 50%;
+            left: 0px;
             transform: scale(1.15);
-            transform-origin: top right;
+            transform-origin: top left;
         }
 
         .trakteer-alert {
             width: 800px;
             height: 600px;
             position: absolute;
-            top: 805px;
+            top: 50%;
             left: -45px;
             transform: scale(1.54);
             transform-origin: top left;
@@ -49,8 +40,8 @@
             width: 400px;
             height: 400px;
             position: absolute;
-            top: 1100px;
-            left: 10px;
+            top: 50%;
+            left: 0px;
             transform: scale(1.07);
             transform-origin: top left;
         }
@@ -59,7 +50,8 @@
             width: 400px;
             height: 400px;
             position: absolute;
-            top: 1088px;
+            top: 50%;
+            left: 0px;
             transform: scale(1.13);
             transform-origin: top left;
         }
@@ -68,8 +60,8 @@
             width: 800px;
             height: 700px;
             position: absolute;
-            top: 871px;
-            left: 3px;
+            top: 50%;
+            left: 0px;
             transform: scale(0.8);
             transform-origin: top left;
         }
@@ -87,22 +79,20 @@
 </head>
 
 <body>
-    <div class="viewport">
-        <iframe class="sociabuzz-alert"
-            src="https://sociabuzz.com/pro/tribe/alert1/v3/1765218095?colorName=%23ffd6ea&alphaName=1&colorNote=%23ffffa0&alphaNote=1&colorFrom=%23eeeeee&alphaFrom=1&gifActive=0&maxDuration=10&font=Open%2BSans%3A800"
-            frameborder="0"></iframe>
-        <iframe class="trakteer-alert"
-            src="https://stream.trakteer.id/notification/index.html?key=trstream-yjqBFDemV4dEqCkrFfI3&unit=Paket&mod=3&hash=v7dk486vewb5b690"
-            frameborder="0"></iframe>
-        <iframe class="tako-soundboard-alert" src="https://tako.id/overlay/soundboard?overlay_key=y0nb6x1x0viemcf5hyexd8ah"
-            frameborder="0"></iframe>
-        <iframe class="tako-alert" src="https://tako.id/overlay/alert?overlay_key=y0nb6x1x0viemcf5hyexd8ah"
-            frameborder="0"></iframe>
-        <iframe class="tako-mediashare-alert" src="https://tako.id/overlay/mediashare?overlay_key=y0nb6x1x0viemcf5hyexd8ah"
-            frameborder="0"></iframe>
-        <iframe class="tako-milestone" src="https://tako.id/overlay/milestone?overlay_key=y0nb6x1x0viemcf5hyexd8ah"
-            frameborder="0"></iframe>
-    </div>
+    <iframe class="sociabuzz-alert"
+        src="https://sociabuzz.com/pro/tribe/alert1/v3/1765218095?colorName=%23ffd6ea&alphaName=1&colorNote=%23ffffa0&alphaNote=1&colorFrom=%23eeeeee&alphaFrom=1&gifActive=0&maxDuration=10&font=Open%2BSans%3A800"
+        frameborder="0"></iframe>
+    <iframe class="trakteer-alert"
+        src="https://stream.trakteer.id/notification/index.html?key=trstream-yjqBFDemV4dEqCkrFfI3&unit=Paket&mod=3&hash=v7dk486vewb5b690"
+        frameborder="0"></iframe>
+    <iframe class="tako-soundboard-alert" src="https://tako.id/overlay/soundboard?overlay_key=y0nb6x1x0viemcf5hyexd8ah"
+        frameborder="0"></iframe>
+    <iframe class="tako-alert" src="https://tako.id/overlay/alert?overlay_key=y0nb6x1x0viemcf5hyexd8ah"
+        frameborder="0"></iframe>
+    <iframe class="tako-mediashare-alert" src="https://tako.id/overlay/mediashare?overlay_key=y0nb6x1x0viemcf5hyexd8ah"
+        frameborder="0"></iframe>
+    <iframe class="tako-milestone" src="https://tako.id/overlay/milestone?overlay_key=y0nb6x1x0viemcf5hyexd8ah"
+        frameborder="0"></iframe>
 </body>
 
 </html>
